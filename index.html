@@ -1,95 +1,691 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="3DTiger" />
+    <title>3D Tiger</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicons -->
+    <link href="img/3D-TIGER.jpg.png" rel="icon" />
+    <link href="img/3D-TIGER.jpg.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
     <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
 
-    <title>3D Tiger Design</title>
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+    Theme Name: BizPage
+    Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
   </head>
+
   <body>
-    <header>
-      <a href="#" class="logo">3DTiger</a>
-      <nav class="navigation">
-        <a href="#services">الخدمات</a>
-        <a href="#projects">المشاريع</a>
+    <!--==========================
+    Header
+  ============================-->
+    <header id="header">
+      <div class="container-fluid">
+        <div id="logo" class="pull-left">
+          <h1><a href="#intro" class="scrollto">3D Tiger</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+        </div>
 
-      </nav>
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li class="menu-active"><a href="#intro">الصفحة الرئسية</a></li>
+            <li><a href="#about">معلومات عنا</a></li>
+            <li><a href="#Services">خدمات</a></li>
+            <li><a href="#file">ملف</a></li>
+            <li class="menu-has-children">
+              <a href="">المواد</a>
+              <ul>
+                <li><a href="#">ميكانيكا تربة</a></li>
+                <li><a href="#">مواد البناء </a></li>
+                <li><a href="#">ورش بناء </a></li>
+                <li><a href="#">رسم المعماري 1و2</a></li>
+                <li><a href="#">تطبيقات حاسيب</a></li>
+              </ul>
+            </li>
+            <li><a href="#Contact">اتصال</a></li>
+          </ul>
+        </nav>
+        <!-- #nav-menu-container -->
+      </div>
     </header>
-    <section class="main">
-      <div>
-        <h2>اهلابكم ،انا فيصل مصطفي <br /><span>مهندس انشائي</span></h2>
-        <h3>التصميمات المعمارية الداخلية والخارجية</h3>
-        <a href="#projects" class="main-btn">عرض عملي</a>
-        <div class="social-icons">
-          <a href=https://www.facebook.com/3D-Tiger-102021454681733
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
-          <a href="https://www.instagram.com/3dtiger7/"><i class="fa-brands fa-instagram-square"></i></a>
-          <a href="https://www.linkedin.com/in/faisal-mostafa-6352461b4/"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://www.youtube.com/channel/UCKbhcOtdEDj-hxnPj7wzTbg"><i class="fa-brands fa-youtube"></i></a>
+    <!-- #header -->
+
+    <!--==========================
+    Intro Section
+  ============================-->
+    <section id="intro">
+      <div class="intro-container">
+        <div
+          id="introCarousel"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators"></ol>
+
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="carousel-background">
+                <img src="img/intro-carousel/1.jpg" alt="" />
+              </div>
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2>هدفك عندنا</h2>
+                  <a href="#featured-services" class="btn-get-started scrollto"
+                    >البدء</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="carousel-background">
+                <img src="img/intro-carousel/2.jpg" alt="" />
+              </div>
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2>تصميمك عندنا</h2>
+                  <p>
+                    هنسعدك تختار تشطيب شقتك وكمات هتشوف شقتك قبل متعمل فيها اي
+                    حاجه عشان متكسرش بعد التشطيب
+                  </p>
+                  <a href="#featured-services" class="btn-get-started scrollto"
+                    >البدء</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="carousel-background">
+                <img src="img/intro-carousel/3.jpg" alt="" />
+              </div>
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2>يلا نتعلم</h2>
+                  <p>
+                    الموقع كمان بيقدم شرحات لتخصص البناء و التشيد لكلية
+                    التكنولوجية و التعليم
+                  </p>
+                  <a href="#featured-services" class="btn-get-started scrollto"
+                    >البدء</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a
+            class="carousel-control-prev"
+            href="#introCarousel"
+            role="button"
+            data-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon ion-chevron-left"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">سابق</span>
+          </a>
+
+          <a
+            class="carousel-control-next"
+            href="#introCarousel"
+            role="button"
+            data-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon ion-chevron-right"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">التالي</span>
+          </a>
         </div>
       </div>
     </section>
+    <!-- #intro -->
 
-    <section class="cards" id="services">
-      <h2 class="title">الخدمات </h2>
-      <div class="content">
-        <div class="card">
-          <div class="icon">
-            <i class="fa-solid fa-pen-to-square"></i>
-          </div>
-          <div class="info">
-            <h3>كتابة تقارير</h3>
+    <main id="main">
+      <!--==========================
+      Featured Services Section
+    ============================-->
+    </section>
+      <!-- #featured-services -->
+
+      <!--==========================
+      About Us Section
+    ============================-->
+      <section id="about">
+        <div class="container">
+          <header class="section-header">
+            <h3>معلومات عنا</h3>
             <p>
-              كتابة التقارير وتصميم وكتابة الكتب
+              انا فيصل مصطفي ابراهيم/ مصمم معماري و انشائي /اععمل علي التصميمات
+              الداخلية و الخارجية و ايضا اعمل علي شرح بعض المواد الخاصه بقسم
+              الانشاءات في كلية التكنولوجية والتعليم
             </p>
+          </header>
+        </div>
+      </section>
+      <!-- #about -->
+
+      <!--==========================
+      Services Section
+    ============================-->
+
+      <!-- #services -->
+
+      <!--==========================
+      Call To Action Section
+    ============================-->
+      <!-- #call-to-action -->
+
+      <!--==========================
+      Skills Section
+    ============================-->
+
+      <!--==========================
+      Facts Section
+    ============================-->
+      <!-- #facts -->
+
+      <!--==========================
+      Portfolio Section
+    ============================-->
+      <section id="portfolio" class="section-bg">
+        <div class="container">
+          <header class="section-header">
+            <h3 class="section-title">المشاريع الخاصه</h3>
+          </header>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">الكل</li>
+                <li data-filter=".filter-app">التطبيقات</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row portfolio-container">
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp"
+            >
+              <div class="portfolio-wrap">
+                <figure>
+                  <img src="img/portfolio/1.jpg" class="img-fluid" alt="" />
+                  <a
+                    href="img/portfolio/1.jpg"
+                    data-lightbox="portfolio"
+                    data-title="App 1"
+                    class="link-preview"
+                    title="Preview"
+                    ><i class="ion ion-eye"></i
+                  ></a>
+                  <a href="#" class="link-details" title="More Details"
+                    ><i class="ion ion-android-open"></i
+                  ></a>
+                </figure>
+
+                <div class="portfolio-info">
+                  <h4><a href="#">غرفة نوم </a></h4>
+                  <p>غرفه</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp"
+            >
+              <div class="portfolio-wrap">
+                <figure>
+                  <img src="img/portfolio/2.jpg" class="img-fluid" alt="" />
+                  <a
+                    href="img/portfolio/2.jpg"
+                    data-lightbox="portfolio"
+                    data-title="App 1"
+                    class="link-preview"
+                    title="Preview"
+                    ><i class="ion ion-eye"></i
+                  ></a>
+                  <a href="#" class="link-details" title="More Details"
+                    ><i class="ion ion-android-open"></i
+                  ></a>
+                </figure>
+
+                <div class="portfolio-info">
+                  <h4><a href="#">غرفة نوم </a></h4>
+                  <p>غرفه</p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp"
+            >
+              <div class="portfolio-wrap">
+                <figure>
+                  <img src="img/portfolio/3.jpg" class="img-fluid" alt="" />
+                  <a
+                    href="img/portfolio/3.jpg"
+                    data-lightbox="portfolio"
+                    data-title="App 1"
+                    class="link-preview"
+                    title="Preview"
+                    ><i class="ion ion-eye"></i
+                  ></a>
+                  <a href="#" class="link-details" title="More Details"
+                    ><i class="ion ion-android-open"></i
+                  ></a>
+                </figure>
+
+                <div class="portfolio-info">
+                  <h4><a href="#">غرفة نوم </a></h4>
+                  <p>غرفه</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp"
+            >
+              <div class="portfolio-wrap">
+                <figure>
+                  <img src="img/portfolio/4.jpg" class="img-fluid" alt="" />
+                  <a
+                    href="img/portfolio/4.jpg"
+                    data-lightbox="portfolio"
+                    data-title="App 1"
+                    class="link-preview"
+                    title="Preview"
+                    ><i class="ion ion-eye"></i
+                  ></a>
+                  <a href="#" class="link-details" title="More Details"
+                    ><i class="ion ion-android-open"></i
+                  ></a>
+                </figure>
+
+                <div class="portfolio-info">
+                  <h4><a href="#">غرفة نوم </a></h4>
+                  <p>غرفه</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp"
+            >
+              <div class="portfolio-wrap">
+                <figure>
+                  <img src="img/portfolio/5.jpg" class="img-fluid" alt="" />
+                  <a
+                    href="img/portfolio/5.jpg"
+                    data-lightbox="portfolio"
+                    data-title="App 1"
+                    class="link-preview"
+                    title="Preview"
+                    ><i class="ion ion-eye"></i
+                  ></a>
+                  <a href="#" class="link-details" title="More Details"
+                    ><i class="ion ion-android-open"></i
+                  ></a>
+                </figure>
+
+                <div class="portfolio-info">
+                  <h4><a href="#">حمام</a></h4>
+                  <p>حمام</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp"
+            >
+              <div class="portfolio-wrap">
+                <figure>
+                  <img src="img/portfolio/6.jpg" class="img-fluid" alt="" />
+                  <a
+                    href="img/portfolio/6.jpg"
+                    data-lightbox="portfolio"
+                    data-title="App 1"
+                    class="link-preview"
+                    title="Preview"
+                    ><i class="ion ion-eye"></i
+                  ></a>
+                  <a href="#" class="link-details" title="More Details"
+                    ><i class="ion ion-android-open"></i
+                  ></a>
+                </figure>
+
+                <div class="portfolio-info">
+                  <h4><a href="#">حمام</a></h4>
+                  <p>حمام</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp"
+            >
+              <div class="portfolio-wrap">
+                <figure>
+                  <img src="img/portfolio/7.jpg" class="img-fluid" alt="" />
+                  <a
+                    href="img/portfolio/7.jpg"
+                    data-lightbox="portfolio"
+                    data-title="App 1"
+                    class="link-preview"
+                    title="Preview"
+                    ><i class="ion ion-eye"></i
+                  ></a>
+                  <a href="#" class="link-details" title="More Details"
+                    ><i class="ion ion-android-open"></i
+                  ></a>
+                </figure>
+
+                <div class="portfolio-info">
+                  <h4><a href="#">حمام</a></h4>
+                  <p>حمام</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp"
+            >
+              <div class="portfolio-wrap">
+                <figure>
+                  <img src="img/portfolio/8.jpg" class="img-fluid" alt="" />
+                  <a
+                    href="img/portfolio/8.jpg"
+                    data-lightbox="portfolio"
+                    data-title="App 1"
+                    class="link-preview"
+                    title="Preview"
+                    ><i class="ion ion-eye"></i
+                  ></a>
+                  <a href="#" class="link-details" title="More Details"
+                    ><i class="ion ion-android-open"></i
+                  ></a>
+                </figure>
+
+                <div class="portfolio-info">
+                  <h4><a href="#">حمام</a></h4>
+                  <p>حمام</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp"
+            >
+              <div class="portfolio-wrap">
+                <figure>
+                  <img src="img/portfolio/10.jpg" class="img-fluid" alt="" />
+                  <a
+                    href="img/portfolio/10.jpg"
+                    data-lightbox="portfolio"
+                    data-title="App 1"
+                    class="link-preview"
+                    title="Preview"
+                    ><i class="ion ion-eye"></i
+                  ></a>
+                  <a href="#" class="link-details" title="More Details"
+                    ><i class="ion ion-android-open"></i
+                  ></a>
+                </figure>
+
+                <div class="portfolio-info">
+                  <h4><a href="#">وجهات</a></h4>
+                  <p>الجلادين</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp"
+            >
+              <div class="portfolio-wrap">
+                <figure>
+                  <img src="img/portfolio/سجاد.jpg" class="img-fluid" alt="" />
+                  <a
+                    href="img/portfolio/سجاد.jpg"
+                    data-lightbox="portfolio"
+                    data-title="App 1"
+                    class="link-preview"
+                    title="Preview"
+                    ><i class="ion ion-eye"></i
+                  ></a>
+                  <a href="#" class="link-details" title="More Details"
+                    ><i class="ion ion-android-open"></i
+                  ></a>
+                </figure>
+
+                <div class="portfolio-info">
+                  <h4><a href="#">سجادة</a></h4>
+                  <p>سجادة</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <div class="icon">
-            <i class="fa-solid fa-chalkboard-user"></i>
+      </section>
+      <!--==========================
+      Contact Section
+    ============================-->
+      <section id="contact" class="section-bg wow fadeInUp">
+        <div class="container">
+          <div class="section-header">
+            <h3>اتصل بنا</h3>
           </div>
-          <div class="info">
-            <h3>تعيلم اون لاين</h3>
-            <p>
-              تقديم فيدوهات على موقع يوتيوب بخصوص قسم البناء
-              مناهج التعليم لكلية التكنولوجيا والتربية
-            </p>
+
+          <div class="row contact-info">
+            <div class="col-md-4">
+              <div class="contact-address">
+                <i class="ion-ios-location-outline"></i>
+                <h3>العنوان</h3>
+                <address>كفرغنام/الدقهلية /مصر</address>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="contact-phone">
+                <i class="ion-ios-telephone-outline"></i>
+                <h3>Phone Number</h3>
+                <p><a href="tel:+201027673586">+201027673586</a></p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="contact-email">
+                <i class="ion-ios-email-outline"></i>
+                <h3>Email</h3>
+                <p><a href="faisalmostafa369@gmail.com">faisalmostafa369@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="form">
+            <div id="sendmessage">تم ارسال رسالتك. شكرًا لك!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    id="name"
+                    placeholder="اسمك"
+                    data-rule="minlen:4"
+                    data-msg="Please enter at least 4 chars"
+                  />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    placeholder="بريدك الالكتروني"
+                    data-rule="email"
+                    data-msg="Please enter a valid email"
+                  />
+                  <div class="validation"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  id="subject"
+                  placeholder="موضوعات"
+                  data-rule="minlen:4"
+                  data-msg="Please enter at least 8 chars of subject"
+                />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  name="message"
+                  rows="5"
+                  data-rule="required"
+                  data-msg="Please write something for us"
+                  placeholder="رسالة"
+                ></textarea>
+                <div class="validation"></div>
+              </div>
+              <div class="text-center">
+                <button type="submit">أرسل رسالة</button>
+              </div>
+            </form>
           </div>
         </div>
-        <div class="card">
-          <div class="icon">
-            <i class="fa-solid fa-gopuram"></i>
-          </div>
-          <div class="info">
-            <h3>تصميمات </h3>
-            <p>
-              تنفيذ التصميمات المعمارية الخارجية والداخلية وتقسيمها
-              ارض زراعية للبناء
-            </p>
+      </section>
+      <!-- #contact -->
+    </main>
+
+    <!--==========================
+    Footer
+  ============================-->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-info">
+              <h3>3D Tiger</h3>
+              <p>
+               نحن شركة خاصه للتصميمات المعمارية داخلي و خارجي وتقصيمات الاراضي الزراعية 
+              </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>روابط مفيدة</h4>
+              <ul>
+                <li>
+                  <i class="ion-ios-arrow-right"></i> <a href="#">الصفحة الرئيسية </a>
+                </li>
+                <li>
+                  <i class="ion-ios-arrow-right"></i> <a href="#">معلومات عنا</a>
+                </li>
+                <li>
+                  <i class="ion-ios-arrow-right"></i> <a href="#">خدمات</a>
+                </li>
+                <li>
+                  <i class="ion-ios-arrow-right"></i>
+                  <a href="#">شروط الخدمة</a>
+                </li>
+                <li>
+                  <i class="ion-ios-arrow-right"></i>
+                  <a href="#">سياسة الخصوصية</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-Contact">
+              <h4>اتصل بنا</h4>
+              <p>
+                كفر غنام<br />
+                السنبلاوين/ الدقهلية <br />
+               مصر<br />
+                <strong>Phone:</strong> +201027673586<br />
+                <strong>Email:</strong> faisalmostafa369@gmail.com<br/>
+              </p>
+
+              <div class="social-links">
+                <a href="https://twitter.com/faisalmostafa19/following" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/3D-Tiger-102021454681733" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/3dtiger7/" class="instagram"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+                <a href="#" class="google-plus"
+                  ><i class="fa fa-google-plus"></i
+                ></a>
+                <a href="https://www.linkedin.com/in/faisal-mostafa-6352461b4/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
-    </section>
 
-    <section class="Projects" id="projects">
-      <h2 class="title">المشاريع </h2>
-      <div class="content"></div>
-    </section>
-    <footer class="footer">
-      <p class="footer-title">Copyrights@ <span>faisalmostafa369</span></p>
-      <div class="social-icons">
-        <a href="https://www.facebook.com/3D-Tiger-102021454681733"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://www.instagram.com/3dtiger7/"><i class="fa-brands fa-instagram-square"></i></a>
-        <a href="https://www.linkedin.com/in/faisal-mostafa-6352461b4/"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://www.youtube.com/channel/UCKbhcOtdEDj-hxnPj7wzTbg"><i class="fa-brands fa-youtube"></i></a>
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong>3DTiger</strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
+        -->
+          Designed by <a href="https://bootstrapmade.com/">3DTiger</a>
+        </div>
       </div>
     </footer>
+    <!-- #footer -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <!-- Uncomment below i you want to use a preloader -->
+    <!-- <div id="preloader"></div> -->
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/superfish/hoverIntent.js"></script>
+    <script src="lib/superfish/superfish.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
   </body>
 </html>
