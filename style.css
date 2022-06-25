@@ -3,13 +3,16 @@
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 0%;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
-header {
-  background-color: #f0f0f0;
+body {
+  background-color: #ffff;
+}
+.container {
+  background-color: aqua;
   width: 100%;
   position: fixed;
   z-index: 999;
@@ -18,175 +21,268 @@ header {
   align-items: center;
   padding: 10px 200px;
 }
-
-.logo {
-  text-decoration: none;
-  color: #241178;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.8em;
+ul {
+  margin: 0%;
+  padding: 0%;
 }
-
-.navigation a {
-  color: #241178;
+header li {
+  color: rgb(20, 0, 203);
   text-decoration: none;
-  font-size: 1.1em;
   font-weight: 500;
+  display: inline;
   padding-left: 30px;
 }
-
-.navigation a:hover {
-  color: #1e0bd0;
+header a {
+  text-decoration: none;
+  font-size: 20px;
+}
+header a:hover {
+  color: black;
+}
+header #brand {
+  float: left;
+  margin: 0%;
+  color: rgb(184, 0, 0);
+}
+header nav {
+  float: right;
 }
 section {
   padding: 100px 200px;
 }
 .main {
-  width: 100%;
+  background: url("img/3D\ TIGER.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(3DTIGER/);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 .main h2 {
-  color: #170b2a;
-  font-size: 1.4em;
+  color: rgba(31, 0, 68, 0.942);
+  font-size: 2em;
   font-weight: 500;
-}
-.main h2 span {
-  display: inline-block;
-  margin-top: 10px;
-  color: #3a12ec;
-  font-size: 3em;
-  font-weight: 600;
-}
-.main h3 {
-  color: #000000;
-  font-size: 1.5em;
-  font-weight: 600;
-  letter-spacing: 1px;
-  margin-top: 10px;
   margin-bottom: 30px;
 }
+.main h3 {
+  color: rgb(0, 128, 255);
+  font-size: 3.5em;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
 .main-btn {
-  color: #f0f0f0;
-  background-color: #673dff;
+  color: #ffff;
+  background-color: rgb(3, 95, 95);
   text-decoration: none;
   font-size: 1.1em;
-  font-weight: 600;
+  font-weight: 500;
   display: inline-block;
   padding: 0.9375em 2.1875em;
-  letter-spacing: 1px;
+  letter-spacing: 1;
   border-radius: 15px;
   margin-bottom: 40px;
   transition: 0.7s ease;
 }
-
 .main-btn:hover {
-  background-color: #1e0bd0;
+  background-color: rgb(0, 125, 153);
   transform: scale(1.1);
-}
-
-.social-icons a {
-  color: #270362;
-  font-size: 1.7em;
-  padding-right: 50px;
 }
 .title {
   display: flex;
   justify-content: center;
-  color: #1e0bd0;
+  color: blue;
   font-size: 2.2em;
   font-weight: 800;
   margin-bottom: 30px;
 }
+
+.cards {
+  background-color: rgb(191, 191, 191);
+}
 .content {
   display: flex;
+  display: inline-block;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
+
 .card {
-  background-color: #ffffff;
-  width: 21.25em;
-  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  background-color: #ffff;
+  border: 1px solid #ffff;
+  min-height: 14em;
+  width: 24em;
+  overflow: hidden;
   border-radius: 10px;
-  padding: 25px;
   margin: 15px;
   transition: 0.7s ease;
 }
 .card:hover {
   transform: scale(1.1);
 }
-.icon {
-  color: #230ee5;
-  font-size: 8em;
-  text-align: center;
+
+.img img {
+  width: 100%;
 }
+
 .info {
-  text-align: center;
+  padding: 1em;
 }
-
-.info h3 {
-  color: #230ee5;
-  font-size: 1.2em;
-  font-weight: 700;
-  margin: 10px;
-  text-align: center;
+.category {
+  font-size: 0.8em;
+  color: black;
 }
-
-.footer {
-  background-color: #b0a3c5;
-  color: #000000;
-  padding: 2em;
+.العنوان {
   display: flex;
   justify-content: space-between;
-  font-size: 1.3em;
-  font-weight: 600;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.التفصيل {
+  text-decoration: none;
+  color: #0094ff;
+}
+.التفصيل:hover {
+  color: black;
 }
 
-.footer-title {
-  font-size: 1.3em;
-  font-weight: 600;
+.sinup {
+  padding: 100px 200px;
+  background: url("img/slide-about-1.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
-.footer-title span {
-  color: #0050fd;
+.sin-upp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 420px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+img[alt="user"] {
+  position: absolute;
+  top: -50px;
+  left: 55px;
+}
+h2 {
+  color: #ffff;
+  text-align: center;
+  margin-top: 90px;
+}
+input[type="text"],
+[type="email"],
+[type="password"],
+[placeholder="ConfirmPassword"] {
+  position: absolute;
+  outline: none;
+  border: none;
+  width: 250px;
+  height: 35px;
+  border-bottom: 2px solid #0094ff;
+  background: none;
+  padding: 5px;
+  color: #ffff;
+}
+input[type="text"] {
+  top: 140px;
+  left: 50px;
+}
+input[type="email"] {
+  top: 200px;
+  left: 50px;
+}
+input[type="password"] {
+  top: 250px;
+  left: 50px;
+}
+input[placeholder="اعد كلمة السر"] {
+  top: 300px;
+  left: 50px;
+}
+::placeholder {
+  color: #ffff;
+}
+.main-button {
+  position: absolute;
+  top: 370px;
+  left: 110px;
+  width: 120px;
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  background: rgb(0, 128, 255);
+  border: none;
+  outline: none;
+  color: #ffff;
+  border-radius: 15px;
+  font-size: 20px;
+  transition: 0.7s ease;
+}
+.main-button:hover {
+  background: #ffff;
+  color: rgb(0, 128, 255);
+  transform: scale(1.1);
+}
+p {
+  float: left;
+  position: absolute;
+  top: 340px;
+  left: 160px;
+  color: #ffff;
+  cursor: pointer;
+}
+p:hover {
+  color: rgb(0, 125, 153);
 }
 
-.footer .social-icons a {
-  font-size: 1.3em;
+.vadios {
+  background: #ffff;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
-@media (max-width: 1023px) {
-  header {
-    padding: 12px 20px;
-  }
-  .navigation {
-    padding-left: 5px;
-  }
-  .title {
-    font-size: 1.5em;
-  }
-  section {
-    padding: 80px 20px;
-  }
-  .main-content h2 {
-    font-size: 1em;
-  }
-  .main-content h3 {
-    font-size: 1.5em;
-  }
-  .content {
-    flex-direction: column;
-    align-items: center;
-  }
-  .footer {
-    font-size: 1em;
-    flex-direction: column;
-    align-items: center;
-  }
+.vadios h2 {
+  color: rgba(31, 0, 68, 0.942);
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+footer {
+  background: rgb(0, 188, 125);
+  text-align: center;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+.icon a {
+  color: rgb(255, 255, 255);
+  font-size: 1.7em;
+  padding-right: 30px;
+}
+.credits {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  padding: 10px 200px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.faihon {
+  color: black;
+  text-decoration: none;
 }
